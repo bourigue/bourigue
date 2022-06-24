@@ -24,9 +24,9 @@ Hi 👋 My name is RACHID BOURIGUE
 
 Software engineer and Master's degree
 -------------------------------------
-
+<p>
 Software engineer and Master's degree student specialised in Compture Systems Engineering, and lover of the open-source movement philosophy. I am always doing that which I cannot do in order that I may learn how to do it, and I believe in sharing knowledge. I think it's essential always to keep professional and surround yourself with good people, work hard, and be nice to everyon
-
+</p>
 *   ✉️  You can contact me at [rrbourigue@gmail.com](mailto:rrbourigue@gmail.com)
 *   🧠  I'm learning Flutter and Spring boot with angular### Skills<p align="left">
                                 <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
