@@ -14,7 +14,9 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/cnzou4ydGM7GJZ7VTz/giphy.gif" width="100"/>
+</div>
 
 Hi 👋 My name is RACHID BOURIGUE
 ================================
