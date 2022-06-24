@@ -23,7 +23,11 @@ Software engineer and Master's degree student specialised in Compture Systems En
                                 <a href="https://www.adobe.com/uk/products/aftereffects.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aftereffects-colored.svg" width="36" height="36" alt="After Effects" /></a>
                                 <a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored.svg" width="36" height="36" alt="XD" /></a>
                     </p>
-                    
+             
+             
+             
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Bourigue&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+             
 ### Socials
                   
                   
