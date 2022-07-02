@@ -19,15 +19,13 @@ Software engineer and Master's degree student specialised in Compture Systems En
 
 
 <div id="badges" align="center">
-  <a href="your-linkedin-URL">
+  <a href="[your-linkedin-URL](https://www.linkedin.com/in/rachid-bourigue-00520b219/)">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>&nbsp;
-  <a href="your-youtube-URL">
+  </a>&nbsp&nbsp&nbsp&nbsp&nbsp;
+  <a href="[your-youtube-URL](https://www.youtube.com/channel/UCLW1uR2wuldAoG5gK172JTQ)">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt=""/>
   </a>&nbsp;
-  <a href="your-twitter-URL">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
+  
 </div>
 
 <div align="center">
