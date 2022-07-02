@@ -46,9 +46,7 @@ Software engineer and Master's degree student specialised in Compture Systems En
                     </p>
              
              
-             
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Bourigue&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-             
+       
 ### Socials
                   
                   
