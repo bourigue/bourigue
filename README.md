@@ -16,7 +16,7 @@ Software engineer and Master's degree student specialised in Compture Systems En
 
 
 
-<br/><br/><br/><br/>
+<br/>
 
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/rachid-bourigue-00520b219/">
@@ -27,7 +27,7 @@ Software engineer and Master's degree student specialised in Compture Systems En
   </a>&nbsp;
   
 </div>
-
+<br/>
 <div align="center">
   <img src="https://media.giphy.com/media/cnzou4ydGM7GJZ7VTz/giphy.gif" width="600" height="300"/>
 </div>
