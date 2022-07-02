@@ -2,7 +2,6 @@
   Hi 👋 My name is RACHID BOURIGUE
 <br/>
 
-Software engineer and Master's degree
 
   
   
