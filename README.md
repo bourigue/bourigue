@@ -14,6 +14,23 @@ Software engineer and Master's degree student specialised in Compture Systems En
   <img src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" width="100"/>
 </div>
 
+
+
+<p align="center">
+  <a href="mailto:farahaitelahmadi@gmail.com">
+     <img  src="https://img.shields.io/badge/email-04001E?style=for-the-badge&logo=gmail&logoColor=FE19AA" alt="email">
+  <a/>&nbsp;
+  <a href="https://www.linkedin.com/in/farah-ahmadi">
+     <img  src="https://img.shields.io/badge/linkedin-04001E?style=for-the-badge&logo=linkedin&logoColor=FE19AA" alt="email">
+  <a/>&nbsp;
+  <a href="https://twitter.com/ahmadiF__">
+     <img  src="https://img.shields.io/badge/twitter-04001E?style=for-the-badge&logo=twitter&logoColor=FE19AA" alt="twitter">
+  <a/>&nbsp;
+  <a href="https://farahelahmadi.me">
+     <img  src="https://img.shields.io/badge/website-04001E?style=for-the-badge&logo=about.me&logoColor=FE19AA" alt="website">
+  <a/>
+<p/>
+
 <div id="badges" align="center">
   <a href="your-linkedin-URL">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -34,9 +51,7 @@ Software engineer and Master's degree student specialised in Compture Systems En
 
 
              
-             
-       
-### Socials
+     
                   
                   
 <p align="left">
