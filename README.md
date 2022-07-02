@@ -1,9 +1,9 @@
 <p align="center">
   Hi 👋 My name is RACHID BOURIGUE
-================================
+<br/>
 
 Software engineer and Master's degree
--------------------------------------
+
   
   
 Software engineer and Master's degree student specialised in Compture Systems Engineering, and lover of the open-source movement philosophy. I am always doing that which I cannot do in order that I may learn how to do it, and I believe in sharing knowledge. I think it's essential always to keep professional and surround yourself with good people, work hard, and be nice to everyon
