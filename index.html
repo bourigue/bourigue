@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachid bourige</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="stylefontsicon.css" rel="stylesheet">
+
+
+
+
+    <style>
+        :root {
+            --colorPremier: #020202;
+            --colorSecondaire: #ececec;
+            --colorBtnProject: rgb(254, 242, 19);
+            --colorPremierf: rgb(254, 242, 19);
+            --colorSecondairef: #020202;
+            --colorBtnProjectf: rgb(254, 242, 19);
+}
+
+        * {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        body{
+            background-color: #131f5e;
+        }
+        .navbar {
+           box-shadow: 1px 1px 30px rgba(32, 35, 36, 0.5);
+           background-color:var(--colorPremier) ;
+        }
+        .nav-link{
+            color: aliceblue!important;
+        }
+
+
+        #hero {
+            font-family: 'Fredoka One', cursive;
+            color: var(--colorSecondaire);
+
+        }
+
+        
+
+        section {
+            position: relative;
+            min-height: 100vh;
+          
+        }
+
+       
+
+        .overlay {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(var(--colorPremier), var(--colorPremier));
+
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+        }
+
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bg-cover {
+
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+   
+
+    
+
+        .devider {
+            width: 100px;
+            height: 5px;
+            background-image: linear-gradient(to left, var(--colorPremier), var(--colorPremier));
+            margin: 5px auto;
+        }
+
+        .deviderTitleProjet {
+            width: 200px;
+            height: 5px;
+            background-image: linear-gradient(to left, var(--colorBtnProject), var(--colorBtnProject));
+
+        }
+
+        .deviderrevewi {
+            width: 80%;
+            height: 2px;
+            background-image: linear-gradient(to left, var(--colorPremier), var(--colorPremier));
+            margin: 5px auto;
+        }
+
+      
+
+        #sectionProject {
+            position:relative;
+            min-height: 100vh;
+            background-color: var(--colorPremier);
+
+        }
+        #sectionProject::before{
+
+content: '';
+position: absolute;
+top:0px;
+right: 0px;
+width: 200px;
+height: 200px;
+background-image: linear-gradient(to left, rgb(255, 191, 0), var(--colorBtnProject));
+
+transition: 0.5s;
+border-radius:50%;
+
+}
+
+        #sectionProject .div .div {
+            background-color: rgb(92, 127, 193);
+        }
+
+       .borderrow {
+            border: 4px solid var(--colorBtnProject);
+        }
+
+        .borderrow:hover {
+            box-shadow: 0 0 35px var(--colorBtnProject);
+            box-sizing: border-box;
+        }
+
+        .cardSkills {
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(50px);
+        }
+
+        .cardSkills::before {
+            content: '';
+            position: absolute;
+            bottom: -100%;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-color:var(--colorBtnProject);
+            transition: 0.5s;
+        }
+
+        
+        .cardSkills:hover::before {
+            transform: translate(0px, -100%);
+        }
+
+        .cardSkills:hover {
+            transform: scale(0.5, 0.5);
+        }
+
+
+        #image-skills {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+        #imagecarousel2 {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+        #imagecarouselphone {
+            height: 600px;
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+
+        .cardProjet {
+            
+            background-color: #1548752f;
+            backdrop-filter: blur(10px);
+        }
+        .cardProjet2 {
+            
+            background-color: #1548752f;
+            backdrop-filter: blur(10px);
+        }
+        .cardProjet3 {
+            
+            background-color: #1548752f;
+            backdrop-filter: blur(10px);
+        }
+
+        .btndes {
+            position: relative;
+            background-color: rgb(254, 254, 254);
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            letter-spacing: 0.2rem;
+            padding: 0px;
+            font-weight: 600;
+            font-size: x-large;
+            padding: 10px;
+        }
+
+        .btndes:hover {
+            color: var(--colorBtnProject);
+            background-color: var(--colorBtnProject);
+            box-shadow: 0 0 35px var(--colorBtnProject);
+            letter-spacing: 0.5rem;
+            text-decoration: none;
+            transition: 0.5s;
+            border: none;
+
+        }
+
+        .btndes:before {
+            content: '';
+            position: absolute;
+            inset: 2px;
+            color: var(--colorBtnProject);
+            background-color: var(--colorPremier);
+        }
+
+        span {
+            position: relative;
+            z-index: 4;
+
+        }
+
+
+      
+        .borderrow:hover .imageToolsicon{
+        transform: rotate(360deg);
+        transition: 0.5s;
+         }
+       
+         
+     
+
+        .sectionRegister{
+           background-color: beige;
+           position: relative;
+
+        }
+        .back-form{
+            position: relative;
+         }
+         .back-form::after{
+            content: '';
+            position: absolute;
+            top:-30px;
+            left: -30px;
+            width: 70px;
+            height: 70px;
+            background-color: var(--colorPremierf);
+            transition: 0.5s;
+            border-radius:50%;
+              }
+              .desc{
+            position: relative;
+         }
+         .subdesc{
+          
+            position: absolute;
+            bottom:0px;
+            right: 0px;
+          
+         
+              }   
+              
+        .back-form::before{
+            content: '';
+            position: absolute;
+            bottom:-30px;
+            right: -30px;
+            width: 70px;
+            height: 70px;
+            background-color: var(--colorPremierf);
+            transition: 0.5s;
+            border-radius:50%;
+            }
+
+
+        .form1{
+            background-color: black;
+             position: relative;
+             z-index: 2;
+             backdrop-filter: blur(4px);
+          }
+        .form1 input::placeholder,#textarea::placeholder{
+            color: var(--colorPremierf);
+           }
+       .form1 input,#textarea{
+        font-weight: 600;
+            font-size: large;
+             color: var(--colorPremierf);
+            outline:none;
+            box-shadow: none;
+            border:none;
+        }
+     .form1 input:focus,#textarea:focus{
+            font-weight: 600;
+            font-size: large;
+            color: var(--colorPremierf);
+            outline:none;
+            box-shadow: none;
+            border:none;
+          
+        }
+       form div{
+         position: relative;
+
+        }     
+       .line{
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    height: 1px;
+    width: 98%;
+    background-color: var(--colorPremierf);
+   
+       }
+
+
+       .navbar-brand{
+        color: #ececec!important;
+       }
+       .collapse{
+       
+        color: #ececec;
+       }
+    </style>
+    <!--animation css and js-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--bootsrap css and js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--fontaweosme-->
+    <script src="https://kit.fontawesome.com/ec2fd5b7d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!--navbar-->
+    <nav class="navbar  navbar-expand-lg navbar-light "  data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#">RB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="#hom" href="#">Home</a>
+                    <a class="nav-link" href="#SERVICES">Skills</a>
+                    <a class="nav-link" href="#sectionProject">Poject</a>
+
+                    <a class="nav-link" href="#sectionregister">Contact</a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--hom-->
+    <section id="home" class="bg-cover hero-section  " style="">
+        <div class="overlay"></div>
+        <div class="container text-center ">
+            <div class="row gx-5 gy-5 align-items-center">
+                <div class="col-md-6 ">
+               <div class="row">
+                 
+                <h1 id="hero" class="display-4" data-aos="zoom-in-left">I'm Bourigue Rachid</h1>
+                <p class="my-3 ">
+                    Software engineer and Master's degree student specialised in Compture Systems Engineering, and
+                    lover of the open-source movement philosophy.
+                    I am always doing that which I cannot do in order that I may learn how to do it, and I believe
+                    in sharing knowledge.
+                    I think it's essential a </br>
+                    +ways to keep professional and surround yourself with good people, work hard, and be nice to
+                    everyone.
+                </p>
+
+
+               </div>
+               <div class="row text-center">
+
+
+
+                <a class="btndes m-2" href="https://github.com/bourigue"> <span> <i class="fa-solid fa-play"></i> GetStarted</span></a>
+
+                <a class="btndes m-2" href="https://drive.google.com/file/d/1PvgWvdSR4zV0SoDrCWFGaT9f24dn4Pgy/view?usp=sharing"> <span> <i class=" fa-brands fa-1x fa-github-square"></i> GetResume</span></a>
+
+               </div>
+
+                </div>
+                <div class="col-md-6  text-center">
+
+
+                    <img class="card-img" src="rachid3.png" style="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services-->
+    <section id="SERVICES">
+        <div class="container text-center my-5  ">
+
+            <div class="row ">
+                <div class="col-12">
+                    <h1 id="heroservies" class="text-dark" data-aos="zoom-in">Tech Stack
+                        <h1 />
+                        <div class="devider "></div>
+
+
+                </div>
+            </div>
+
+           <div class="row  align-items-center justify-content-between">
+    <!-- bootstrap -->
+    <div class="col-6 col-md-2 shadow  cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="servic ">
+            <div class="card-body bg- servic-img ">
+                <img id="image-skills" src="assets/bootstrap.png">
+            </div>
+            <h3 class="text-dark mt-1">bootstrap
+                <h3 />
+                <div class="devider "></div>
+        </div>
+    </div>
+    <!-- Laravel -->
+    <div class="col-6 col-md-2 cardSkills shadow  rounded" data-aos="zoom-in" data-aos-duration="1500">
+        <div class=""></div>
+        <div class="servic ">
+            <div class="card-body servic-img ">
+                <img src="assets/laravel.png" id="image-skills">
+            </div>
+            <div class="icon">
+                <h3 class="text-dark mt-1">Laravel<br />
+                    <div class="devider "></div>
+            </div>
+        </div>
+    </div>
+    <!--firebase-->
+    <div class="col-6 col-md-2 cardSkills shadow rounded" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="servic ">
+            <div class="card-body servic-img ">
+                <img src="assets/firebase.png" id="image-skills">
+            </div>
+            <h3 class="text-dark mt-1">firebase<br />
+                <div class="devider "></div>
+        </div>
+    </div>
+    <!--Flutter-->
+    <div class="col-6 col-md-2 shadow  cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="servic ">
+            <div class="card-body servic-img ">
+                <img src="assets/flutter.png" id="image-skills">
+            </div>
+
+            <h3 class="text-dark mt-1">Flutter<br />
+                <div class="devider "></div>
+
+
+        </div>
+    </div>
+
+           </div>
+<br/><br/>
+            <div class="row  align-items-center justify-content-between">
+
+
+            
+                <!--mysql-->
+                <div class="col-6 col-md-2  shadow cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500" >
+                    <div class="servic ">
+                        <div class="card-body servic-img ">
+                            <img src="assets/mysql.png" id="image-skills">
+                        </div>
+                        <h3 class="text-dark mt-1">mysql<br />
+                            <div class="devider "></div>
+                    </div>
+                </div>
+                <!--git-->
+                <div class="col-6 col-md-2 shadow cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="servic ">
+                        <div class="card-body servic-img ">
+                            <img src="assets/git.png" id="image-skills">
+                        </div>
+                        <h3 class="text-dark mt-1">git<br />
+                            <div class="devider "></div>
+
+                    </div>
+                </div>
+                <!--angular-->
+                <div class="col-6 col-md-2 shadow cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="servic ">
+                        <div class="card-body servic-img ">
+                            <img src="assets/angular.png" id="image-skills">
+                        </div>
+                        <h3 class="text-dark mt-1">angular<br />
+                            <div class="devider "></div>
+                    </div>
+                </div>
+                <!--spring -->
+                <div class="col-6 col-md-2 shadow  cardSkills rounded" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="servic ">
+                        <div class="card-body servic-img ">
+                            <img src="assets/springboot.png" id="image-skills">
+                        </div>
+                        <h3 class="text-dark mt-1">spring boot<br />
+                            <div class="devider "></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--Project -->
+    <section id="sectionProject">
+        <div class="container text-center   ">
+            <div class="row ">
+                <div class="col-12 m-4">
+                    <h1 id="" class="" style="color:white;">My Project</h1>
+
+
+                </div>
+            </div>
+        </div>
+<!-- Project 1   -->
+        <div class="container cardProjet pb-4">
+            <div class="row    borderrow justify-content-center">
+                <div class="col-md-5 p-0 m-0">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="imagecarousel2" src="assets/imgProject/p1s1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="imagecarousel2" src="assets/imgProject/p1s6.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="imagecarousel2" src="assets/imgProject/p1s7.png" class="d-block w-100" alt="...">
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <img id="imagecarousel2" src="assets/imgProject/p1s5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="imagecarousel2" src="assets/imgProject/p1s3.png" class="d-block w-100" alt="...">
+                            </div>
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-bg-warning" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon text-bg-warning" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class=" col-md-7   ">
+                    <div class="row gy-5 justify-content-end ">
+                        <div class="col-12">
+                            <h2 class="fw-bold " style="color:white ;">Geocalisiation of taxi </h2>
+                            <p class="fw-semibold">This web application makes it possible to develop and improve the transport offer and facilitates access to the means of urban transport in a city having a
+                                 communication interface between passengers and taxi drivers</p>
+                           
+                            <p class="fw-semibold"> <img class="imageToolsicon" src="folder/toolsicon.png" style="width:40px;height:auto">
+                                Pyhton,Django,GoogleMaps</p>
+                        </div>
+
+                        <div class="col-12 ">
+
+                            
+
+                            <a class="btndes " href="https://github.com/bourigue/GeolocationofTaxis"> <span> <i class=" fa-brands fa-1x fa-github-square"></i>
+                                    GitHub</span></a>
+                            <a class="btndes " href="https://www.youtube.com/watch?v=JDS2Xbl2c54&t=20s&ab_channel=rachidbourigue"> <span> <i class="fa-solid fa-circle-play"></i> Vedio</span></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+     
+        </div>
+
+<!-- Project 2   -->
+        <div class="container cardProjet2 pb-4">
+            <div class="row    borderrow justify-content-center">
+                <div class="col-md-5 p-0 m-0">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="imagecarousel2" src="assets/imgProject/p2s1.png" class="d-block w-100" alt="...">
+                            </div>
+                           
+                        
+                        
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class=" col-md-7 p-2 ">
+                    <div class="row gy-5 justify-content-end ">
+                        <div class="col-12">
+                            <h2 class="fw-bold " style="color:white ;">DownloadManager </h2>
+                            <p class="fw-semibold">The computer application enables you to download videos or audio from YouTube of various available quality and enables you to choose a storage location on your computer</p>
+                            <br />
+                            <p class="fw-semibold"> <img class="imageToolsicon" src="folder/toolsicon.png" style="width:40px;height:auto">
+                                Pyhton,Pytube,PyQt5</p>
+                        </div>
+
+                        <div class="col-12">
+
+                            <a class="btndes m-1" href="https://github.com/bourigue/DownloadManager"> <span> <i class=" fa-brands fa-1x fa-github-square"></i>
+                                    GitHub</span></a>
+                            <a class="btndes m-1" href=""> <span> <i class="fa-solid fa-circle-play"></i> Vedio</span></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+     
+        </div>
+
+
+        <div class="container  pb-4">
+            <div class="row     justify-content-center">
+                <div class="col-md-6 m-1 borderrow">
+                   <div     class="row     justify-content-center">
+                <div class=" col-md-5 p-0 m-0">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                                class="active text-bg-warning" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button text-bg-warning" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button text-bg-warning" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="imagecarouselphone" src="assets/imgProject/p3s1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="imagecarouselphone" src="assets/imgProject/p3s3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="imagecarouselphone" src="assets/imgProject/p3s9.png" class="d-block w-100" alt="...">
+                            </div>
+                           
+                        
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-bg-warning" aria-hidden="true"></span>
+                            <span class="visually-hidden ">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon text-bg-warning" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="  col-md-7 p-2 ">
+                    <div class="row gy-5 justify-content-end ">
+                        <div class="col-12">
+                            <h2 class="fw-bold " style="color:white ;">Roomie </h2>
+                            <p class="fw-semibold">Roomie application makes finding roommates and rooms to share easy. It will manage offers and requests for co-rentals</p>
+                            <br />
+                            <p class="fw-semibold"> <img class="imageToolsicon" src="assets/toolsicon.png" style="width:40px;height:auto">
+                                Flutter,Googlemap api,Firebase</p>
+                        </div>
+
+                        <div class="col-12">
+
+                            <a class="btndes m-1" href="https://github.com/bourigue/GeolocationofTaxis"> <span> <i class=" fa-brands fa-1x fa-github-square"></i>
+                                    GitHub</span></a>
+                            <a class="btndes m-1" href="https://www.youtube.com/watch?v=JDS2Xbl2c54&t=20s&ab_channel=rachidbourigue"> <span> <i class="fa-solid fa-circle-play"></i> Vedio</span></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                     </div>  
+                </div>
+                <div class=" col-md-6 m-1 borderrow">
+                    <div class="row     justify-content-center">
+                        <div class="  col-md-5 p-0 m-0">
+                            <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button " data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                                        class="active text-bg-warning" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button text-bg-warning" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button text-bg-warning" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img id="imagecarouselphone" src="folder/imgProject/p4s2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img id="imagecarouselphone" src="folder/imgProject/p4s1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img id="imagecarouselphone" src="folder/imgProject/p4s3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                   
+                                
+                                    
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon text-bg-warning" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon text-bg-warning" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" col-md-7 p-2 ">
+                            <div class="row gy-xxl-5 justify-content-between ">
+                                <div class="col-12 ">
+                                    <h2 class="fw-bold " style="color:white ;">Roomie </h2>
+                                    <p class="fw-semibold">To manage these communities, we have a good set of applications that can do it, like WhatsApp, Facebook, etc. But the problem remains the separation between the management part of communities and the sharing of information between these communities. So when 
+                                        the community grows, it will be difficult to manage all this information<br />
+                                    <p class="fw-semibold"> <img class="imageToolsicon" src="folder/toolsicon.png" style="width:40px;height:auto">
+                                        Flutter,Googlemap api,Firebase</p>
+                                </div>
+        
+                                <div class="col-12 ">
+        
+                                    <a class="btndes m-1" href="https://github.com/bourigue/GeolocationofTaxis"> <span> <i class=" fa-brands fa-1x fa-github-square"></i>
+                                            GitHub</span></a>
+                                    <a class="btndes m-1" href="https://www.youtube.com/watch?v=JDS2Xbl2c54&t=20s&ab_channel=rachidbourigue"> <span> <i class="fa-solid fa-circle-play"></i> Vedio</span></a>
+        
+                                </div>
+                            </div>
+                        </div>
+        
+        
+        
+        
+        
+                      </div>  
+               </div>
+
+
+
+
+            </div>
+     
+        </div>
+
+        </div>
+        </div>
+
+        
+    </section>
+    <!--Contact-->
+    <section class="sectionRegister" id="sectionregister">
+        
+        <div class="container ">
+
+        <div class="row">
+
+                    <div class="row  text-center">
+                <div class="col-12">
+                    <h1 id="heroservies" class="text-dark" data-aos="zoom-in">Singin <br />
+                        <div class="devider "></div>
+                       
+
+                </div>
+                     </div>
+
+                     
+                 <div class="row back-form p-0" >
+                <div class="element"></div>
+                    <form class="row  gy-5 form1 shadow rounded-4 justify-content-around m-0">
+                        <div class="form-group col-md-5">
+                            <input type="text" placeholder="full name" class="form-control" style="background:transparent;">
+                        <span class="line"></span>
+                        </div>
+                        <div class=" col-md-5">
+                            <input type="text" placeholder="address mail" class="form-control" style="background: transparent;">
+                            <span class="line"></span>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <input type="text" placeholder="Telephone" class="form-control" style="background: transparent;">
+                            <span class="line"></span>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <input type="text" placeholder="Telephone" class="form-control" style="background: transparent;">
+                            <span class="line"></span>
+                        </div>
+                        <div class="form-group col-md-11">
+                            <textarea class="form-control" id="textarea" placeholder="message" aria-placeholder="hhhhhhhh" cols="100"  rows="5" style="background: transparent;"></textarea>
+                            <span class="line"></span>
+                        </div>
+                        <div class="text-center"><button class="btndes"><span>send</span>
+                        </button></div>
+                    </form>
+                 </div>
+                </div>
+            </div>
+            
+        </div>
+          </section>
+    <div class="p-lg-4 h-25 bg-black text-warning"> copyrinting 2022-2023 by rachid bourigue </div>
+   
+   <!--vanillaTitl animation-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".cardProjet"), {
+            max: 25,
+            speed: 400
+        });
+
+   //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".cardProjet"));
+        VanillaTilt.init(document.querySelector(".cardProjet2"), {
+            max: 25,
+            speed: 400
+        });
+
+   //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".cardProjet2"));
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
