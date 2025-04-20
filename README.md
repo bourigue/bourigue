@@ -1,7 +1,7 @@
 # Rachid Bourigue - Full Stack Developer
 
 <div align="center">
-  <h1 style="color: #2E86C1;">FULL STACK DEVELOPER</h1>
+  <h1 style="color: #2E86C1;">Software Engineer</h1>
   <h3 style="color: #E74C3C;">JAVA | ANGULAR | FLUTTER</h3>
 </div>
 
