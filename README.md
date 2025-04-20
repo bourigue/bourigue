@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1 style="color: #2E86C1;">Software Engineer</h1>
-  <h3 style="color: #E74C3C;">JAVA | ANGULAR | FLUTTER</h3>
+  <h3 style="color: #E74C3C;">JAVA | ANGULAR | FLUTTER | IA</h3>
 </div>
 
 👋 Hello! I'm Rachid Bourigue, a passionate Full Stack Developer with expertise in Angular, Java, Spring Boot, and Flutter. I love building performant web and mobile applications while staying up-to-date with the latest technologies.
