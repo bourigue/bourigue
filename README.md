@@ -1,4 +1,4 @@
-# Rachid Bourigue - Full Stack Developer
+# Rachid Bourigue -  Software Engineer
 
 <div align="center">
   <h1 style="color: #2E86C1;">Software Engineer</h1>
