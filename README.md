@@ -64,7 +64,7 @@
 ## 📫 Get in Touch
 - 📧 Email: [rachid.bourigue.it@gmail.com](mailto:rachid.bourigue.it@gmail.com)
 - 🌐 Website: [rachidbourigue.me](https://rachidbourigue.me)
-- 📞 Phone: +212602057108
+
 
 ## 🏆 Projects
 ### Roomie - Roommate Finder App
