@@ -32,7 +32,7 @@
 
 ## 💼 Professional Experience
 
-### 🚀 Frontend Angular Developer X
+### 🚀 Frontend Angular Developer MIF
 **Sep 2024 - Present**  
 - Developed high-performance web applications using Angular and modern web technologies
 - Transformed mockups into intuitive UI interfaces
